@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Jasmitha Gourabathini Personal Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"/>    <!-- bootstrap link -->  
+    </head>
+    <body style="background-color: #fefce2;">
+        <!-- FOR BOOTSTRAP -->
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"
+        ></script> <!-- bootstrap script -->                
+    <!-- Reference: https://getbootstrap.com/docs/5.3/components/navbar/-->
+         <!-- Reference: https://getbootstrap.com/docs/5.3/components/navbar/-->
+  <!-- START OF NAV BAR -->
+<nav class="navbar navbar-expand-lg" style="background-color: #f6e6ef;" data-bs-theme="light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hobbies.html">Hobbies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href = "projects.html">Projects</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            More About Me
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="resume.html">Resume</a></li>
+            <li><a class="dropdown-item" href="#">Other Interests</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">My Journey and Personal Mission</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex ms-3" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <a class="navbar-brand ms-auto" href="home.html">
+        <img src="../Resources/Images/icon-for-website.png" alt="Bootstrap" class="img-fluid" style="max-height: 100px;">
+      </a>
+    </div>
+  </div>
+</nav>
+<!-- END OF NAV BAR -->
+
+<!-- MAIN CONTENT OF PROJECTS PAGE -->
+<!--DOCUMENTATION: https://getbootstrap.com/docs/5.3/layout/grid/  -->
+  <div class="container my-5">
+    <!-- Project 1 -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-5 text-center">
+        <img src="../Resources/Images/fitcycle-project.png" alt="FitCycle Project" class="img-fluid rounded shadow" style="max-height: 250px; max-width: 300px;">
+      </div>
+      <div class="col-md-7">
+        <div class="p-4 rounded shadow-sm" style="background-color: #f6e6ef;">
+          <h3>FitCycle</h3>
+          <p>
+            I built this app with Kode with Klossy the summer before Freshman Year of college. My team and I never found an app that helped women plan their workouts with their menstrual cycle, so we decided to build one! I learned to use Swift and Xcode to build this app.
+          </p>
+          <a href="https://www.canva.com/design/DAGJV7N3VQs/uRDfCa7yNsL_O4TBFJdVrw/edit?utm_content=DAGJV7N3VQs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="btn btn-outline-success" target="_blank">View Project</a>
+        </div>
+      </div>
+    </div>
+  <!-- Project 2 -->
+    <div class="row align-items-center mb-5 flex-md-row-reverse">
+      <div class="col-md-5 text-center">
+        <img src="../Resources/Images/research-project.JPEG" alt="Health Tracker" class="img-fluid rounded shadow" style="max-height: 250px; max-width: 300px;">
+      </div>
+      <div class="col-md-7">
+        <div class="p-4 rounded shadow-sm" style="background-color: #f6e6ef;">
+          <h3>Robotics Research Project about Semantic Segmentation</h3>
+          <p>
+            I worked in the Correll Lab last year and part of my research project was to use semantic segmentation to help robots detect where to pick up deformable objects such as cloth bags.
+          </p>
+          <a href="https://www.canva.com/design/DAGjD1Bbu8w/sSrntEUgc5v8oiJZmaZAEA/edit?utm_content=DAGjD1Bbu8w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="btn btn-outline-success" target="_blank">View Project</a>
+        </div>
+      </div>
+    </div>
+  <!-- Project 3 -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-5 text-center">
+        <img src="../Resources/Images/lionkingproject.png" alt="Lion King Board Game" class="img-fluid rounded shadow" style="max-height: 250px; max-width: 300px;">
+      </div>
+      <div class="col-md-7">
+        <div class="p-4 rounded shadow-sm" style="background-color: #f6e6ef;">
+          <h3>Lion King Board Game</h3>
+          <p>
+            I built a Lion King themed board game in my CSCI 1300 class using C++. I learned to use classes, objects, streams, file handling and so much more to build this game.
+          </p>
+          <a href="#" class="btn btn-outline-success" target="_blank">Link Coming Soon</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END OF MAIN CONTENT FOR PROJECTS PAGE -->
+
+<!-- Footer -->
+<footer class="bg-light text-center " style="background-color: #f6e6ef;">
+  <!-- Grid container -->
+  <div class="container p-4"  style="background-color: #f6e6ef;">
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        I would love to connect with you! Feel free to reach out to me through any of the social media links below, or email me at jago3965@colorado.edu
+      </p>
+    </section>
+    <!-- Section: Text -->
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+      <!-- Gmail -->
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="mailto:jago3965@colorado.edu" role="button"><i class="fab fa-google"></i></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="https://www.linkedin.com/in/jasmitha-gourabathini-7b0935216/" role="button"><i class="fab fa-linkedin-in"></i></a>
+      <!-- Github -->
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="https://github.com/jasmitha-22" role="button"><i class="fab fa-github"></i></a>
+    </section>
+    <!-- Section: Social media -->
+
+  </div>
+  <!-- Grid container -->
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2020 Copyright:
+    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- END OF FOOTER -->
+
+<!-- FontAwesome CDN for social media icons: From Lab-->
+<script src="https://kit.fontawesome.com/a456ae42df.js" crossorigin="anonymous"></script>
+    </body>
+</html>

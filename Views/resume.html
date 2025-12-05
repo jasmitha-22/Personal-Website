@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Jasmitha Gourabathini Personal Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"/>    <!-- bootstrap link -->  
+    </head>
+    <body style="background-color: #fefce2;">
+        <!-- FOR BOOTSTRAP -->
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"
+        ></script> <!-- bootstrap script -->                
+    <!-- Reference: https://getbootstrap.com/docs/5.3/components/navbar/-->
+         <!-- Reference: https://getbootstrap.com/docs/5.3/components/navbar/-->
+ <!-- START OF NAV BAR -->
+<nav class="navbar navbar-expand-lg" style="background-color: #f6e6ef;" data-bs-theme="light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hobbies.html">Hobbies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href = "projects.html">Projects</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            More About Me
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="resume.html">Resume</a></li>
+            <li><a class="dropdown-item" href="#">Other Interests</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">My Journey and Personal Mission</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex ms-3" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <a class="navbar-brand ms-auto" href="home.html">
+        <img src="../Resources/Images/icon-for-website.png" alt="Bootstrap" class="img-fluid" style="max-height: 100px;">
+      </a>
+    </div>
+  </div>
+</nav>
+<!-- END OF NAV BAR -->
+<!-- Resume Tabular format for website  -->
+<div class="container my-5 p-4 rounded shadow-sm" style="background-color: #f6e6ef;">
+  <div class="row g-4">
+    <!-- Left Column -->
+  <div class="col-md-4 rounded p-3" style="background-color: #fbedf6;">
+      <div class="text-center mb-4">
+        <img src="../Resources/Images/picture-of-me.png" alt="Profile" style="max-width: 250px; height: auto;">
+        <h3 class="fw-bold mb-0">Jasmitha Gourabathini</h3>
+        <p class="text-muted mb-0">Computer Science Student</p>
+      </div>
+
+      <div class="mb-4">
+        <h5 class="border-bottom pb-2">Contact</h5>
+        <p class="mb-1"><strong>Phone:</strong> 720-837-4844</p>
+        <p class="mb-1"><strong>Email:</strong> jago@colorado.edu</p>
+        <p><strong>LinkedIn:</strong> 
+          <a href="https://www.linkedin.com/in/jasmitha-gourabathini-7b0935216/" target="_blank">
+            Profile
+          </a>
+        </p>
+      </div>
+
+      <div class="mb-4">
+        <h5 class="border-bottom pb-2">Skills</h5>
+        <ul class="list-unstyled mb-0">
+          <li>C++, Python, Java, NodeJS, JavaScript</li>
+          <li>HTML, CSS, Bootstrap, Docker</li>
+          <li>SQL, Swift, Swift UI, GitHub</li>
+          <li>Microsoft CRM Systems</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h5 class="border-bottom pb-2">Languages</h5>
+        <p class="mb-1">English (Fluent)</p>
+        <p class="mb-1">Telugu (Fluent)</p>
+        <p class="mb-0">Spanish (Proficient)</p>
+      </div>
+
+      <div>
+        <h5 class="border-bottom pb-2">Interests</h5>
+        <p class="mb-0">Increasing accessibility, equity, and wellbeing through technology.</p>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="col-md-8">
+      <div class="mb-4">
+        <h4 class="border-bottom pb-2">Education</h4>
+        <p class="fw-semibold mb-1">University of Colorado Boulder 
+          <span class="float-end text-muted">May 2028 (Expected)</span>
+        </p>
+        <p class="text-muted mb-1">B.S. in Computer Science, Minor in Leadership | GPA: 3.97</p>
+        <ul class="mb-0">
+          <li>CU Engineering BOLD Scholar, Engineering Honors Program</li>
+          <li>Relevant Coursework: Calculus II, Data Structures, Computer Systems, Linear Algebra, Probability & Statistics with Data Science</li>
+        </ul>
+      </div>
+
+      <div class="mb-4">
+        <h4 class="border-bottom pb-2">Work Experience</h4>
+
+        <div class="mb-3">
+          <p class="fw-semibold mb-1">Correll Lab, Research Assistant 
+            <span class="float-end text-muted">Jan 2025 – Present</span>
+          </p>
+          <ul class="mb-0">
+            <li>Developing a research project using vision-language models for robotic grasp synthesis.</li>
+            <li>Presented poster at FUTURE Symposium 2025; continuing project under UROP.</li>
+          </ul>
+        </div>
+
+        <div class="mb-3">
+          <p class="fw-semibold mb-1">Project C.U.R.E, Data Cleaning Volunteer 
+            <span class="float-end text-muted">Jun 2024 – Aug 2024</span>
+          </p>
+          <ul class="mb-0">
+            <li>Utilized Microsoft Dynamics CRM for donation data validation and integrity checks.</li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="fw-semibold mb-1">Rock Canyon High School Biotechnology Lab, Researcher 
+            <span class="float-end text-muted">Aug 2022 – Jun 2024</span>
+          </p>
+          <ul class="mb-0">
+            <li>Researched effects of L-Theanine on neural injury in C. elegans; published findings in <em>Research in Biotechnology</em> (2023).</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <h4 class="border-bottom pb-2">Leadership & Activities</h4>
+        <div class="mb-3">
+          <p class="fw-semibold mb-1">President’s Leadership Class – Alumni Data Coordinator 
+            <span class="float-end text-muted">Aug 2025 – Present</span>
+          </p>
+          <ul class="mb-0">
+            <li>Analyzing alumni database solutions and building community partnerships with Forever Buffs.</li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="fw-semibold mb-1">Women in Computing – Treasurer 
+            <span class="float-end text-muted">Jul 2025 – Present</span>
+          </p>
+          <ul class="mb-0">
+            <li>Managing club finances, applying for travel grants, and ensuring operational sustainability.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mb-4">
+        <h4 class="border-bottom pb-2">Projects</h4>
+        <ul class="mb-0">
+          <li><strong>Enemy and Dungeon Game</strong> – Built using hash tables, priority queues, and graphs (C++).</li>
+          <li><strong>Lion King Board Game</strong> – Designed in C++ using structs, arrays, and vectors.</li>
+          <li><strong>iOS Fitness App</strong> – Built with Swift UI to improve accessibility in fitness tracking.</li>
+          <li><strong>Data Visualization on Education in Afghanistan</strong> – Python + SQL analysis project presented at Kode with Klossy.</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="border-bottom pb-2">Awards</h4>
+        <ul class="mb-0">
+          <li><strong>1st Place</strong> – Webmaster (TSA 2024): Created sustainability-themed website.</li>
+          <li><strong>1st Place</strong> – Biotechnology (TSA 2023): Designed space-food solution model.</li>
+          <li><strong>1st Place</strong> – Fashion Design & Technology (2022)</li>
+          <li><strong>3rd Place</strong> – Fashion Design & Technology (2023)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+    <p></p>
+    <!-- using this for the extra spacing in the website -->
+</div>
+<div class="d-flex justify-content-center mt-4 mb-5">
+  <a href="../Resources/Images/Jasmitha Gourabathini Medtronic Resume 2.0.pdf"
+     target="_blank"
+     download="Jasmitha_Gourabathini_Resume.pdf"
+     class="btn btn-outline-success">
+    Download Resume PDF
+  </a>
+</div>
+<!-- Footer -->
+<footer class="bg-light text-center " style="background-color: #f6e6ef;">
+  <!-- Grid container -->
+  <div class="container p-4"  style="background-color: #f6e6ef;">
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        I would love to connect with you! Feel free to reach out to me through any of the social media links below, or email me at jago3965@colorado.edu
+      </p>
+    </section>
+    <!-- Section: Text -->
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+      <!-- Gmail -->
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="mailto:jago3965@colorado.edu" role="button"><i class="fab fa-google"></i></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="https://www.linkedin.com/in/jasmitha-gourabathini-7b0935216/" role="button"><i class="fab fa-linkedin-in"></i></a>
+      <!-- Github -->
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="https://github.com/jasmitha-22" role="button"><i class="fab fa-github"></i></a>
+    </section>
+    <!-- Section: Social media -->
+
+  </div>
+  <!-- Grid container -->
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2020 Copyright:
+    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- END OF FOOTER -->
+
+<!-- FontAwesome CDN for social media icons: From Lab-->
+<script src="https://kit.fontawesome.com/a456ae42df.js" crossorigin="anonymous"></script>
+    </body>
+</html>
